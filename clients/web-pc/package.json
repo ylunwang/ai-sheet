@@ -1,5 +1,5 @@
 {
-  "name": "@ai-sheet/web-pc",
+  "name": "@clients/web-pc",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,14 +9,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@univerjs/presets": "^0.6.9",
+    "lodash-es": "^4.17.21",
+    "tdesign-vue-next": "^1.11.5",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.3",
+    "@types/lodash-es": "^4.17.12",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "tailwindcss": "^4.1.3",
     "typescript": "~5.7.2",
+    "unplugin-auto-import": "^19.1.2",
+    "unplugin-vue-components": "^28.4.1",
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
   }
